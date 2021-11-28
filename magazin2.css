@@ -1,12 +1,31 @@
-.single-goods{
-	width: 200px;
-	height: 300px;
-	border: 1px solid black;
-	margin: 10px;
-	float: left;
-	text-align: center;
+body{
+	}
+
+.form_input,
+.form_button{
+	font-family:Montserrat;
+	letter-spacing: 1px;
+	font-size: 16px;
 }
-.single-goods button{
-	display: block;
-	margin: 20px auto;
+.form_button:focus,
+.form_button:hover{
+	background-color: rgba(0, 113, 240, 0.7);
+}
+.form_button{
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #00ff00;
+	outline: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.form_label{
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	color: #9e9e9e;
+	transition: 0.3s;
 }
