@@ -1,9 +1,11 @@
-p {font-family:Montserrat;color:white;}
-h2{font-family:Montserrat;color:white;}
-h1{font-family:Montserrat;color:white;}
+p {font-family:Montserrat;color:black;}
+h2{font-family:Montserrat;color:black;}
+h1{font-family:Montserrat;color:black;}
 button{color:white; font-family: Montserrat;}
 body{
 	background: url(images/6.jpg);
+	background-size: 100%;
+	
 }
 .form_input,
 .form_button{
@@ -17,8 +19,13 @@ body{
 	border: none;
 	border-radius: 5px;
 	color: #fff;
-	background-color: #FA8072;
+	background-color: #0071f0;
 	outline: none;
 	cursor: pointer;
 	transition: 0.3s;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-family:Montserrat;;
 }
