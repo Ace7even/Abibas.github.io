@@ -24,3 +24,7 @@ body{
 	cursor: pointer;
 	transition: 0.3s;
 }
+a{
+	text-decoration: none;
+	font-family:Montserrat;
+}
