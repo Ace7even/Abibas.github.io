@@ -1,5 +1,7 @@
 body{
 	background: url(images/13.jpg);
+	
+	
 	}
 
 .form_input,
@@ -17,7 +19,7 @@ body{
 	border: none;
 	border-radius: 5px;
 	color: #fff;
-	background-color: #00ff00;
+	background-color: #0071f0;
 	outline: none;
 	cursor: pointer;
 	transition: 0.3s;
@@ -29,4 +31,9 @@ body{
 	z-index: -1;
 	color: #9e9e9e;
 	transition: 0.3s;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-family:Montserrat;
 }
