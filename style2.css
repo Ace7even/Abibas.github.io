@@ -1,9 +1,10 @@
-p {font-family:Montserrat;color: white;}
-h2{font-family:Montserrat;}
-h1{font-family:Montserrat;}
-button{color:white; font-family: Montserrat;}
 body{
 	background: url(images/4.jpg);
+	background-size: 100%;
+	p:font-family:Montserrat;color: white;
+	h2:font-family:Montserrat;color: white;
+	h1:font-family:Montserrat;color: white;
+	
 }
 .form_input,
 .form_button{
@@ -16,9 +17,18 @@ body{
 	padding: 10px 20px;
 	border: none;
 	border-radius: 5px;
-	color: #fff;
-	background-color: #8A2BE2;
+	color: #ffffff;
+	background-color: #0071f0;
 	outline: none;
 	cursor: pointer;
 	transition: 0.3s;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-family:Montserrat;
+}
+.form_button:focus,
+.form_button:hover{
+	background-color: rgba(0, 113, 240, 0.7);
 }
