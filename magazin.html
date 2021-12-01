@@ -1,52 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="magazin2.css" type="text/css"/>
-	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-	<title>Магазин</title>
-	<link rel="icon" type="image/png" href="images/suit.png">
-	
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Магазин</title>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<h1 style="position: relative;text-align: center;"><big>Магазин</big></h1>
-
-<section>
-
-	<div>
-		<img src="images/10.jpg" width="300" height="180"; border= "0";>
-		<p>Abibas SuperStar</p>
-		<button class="button-primary plus" data-id="228322">+</button>
-		<button class="button-primary minus" data-id="228322">-</button>
+  <h1 style="position: relative;text-align: center;"><big>Магазин</big></h1>
+  <div id="wrapper">
+    <div class="item_box">
+      <img src="images/8.jpg" width="300" height="180"; border= "0";>
+        <h3 class="item_title">Abibas SuperStar</h3>
+        <p>Цена: <span class="item_price">21990</span>тг.</p>
+        <button class="add_item" data-id="7">Добавить в корзину</button>
+    </div>
+    <div class="item_box">
+      <img src="images/10.jpg" width="300" height="180"; border= "0";>
+        <h3 class="item_title">Abibas Gazelle</h3>
+        <p>Цена: <span class="item_price">35990</span>тг.</p>
+        <button class="add_item" data-id="2">Добавить в корзину</button>
+    </div>
+    <div class="item_box">
+      <img src="images/11.jpg" width="300" height="180"; border= "0";>
+        <h3 class="item_title">Abibas Yeezy 350</h3>
+        <p>Цена: <span class="item_price">19990</span>тг.</p>
+        <button class="add_item" data-id="5">Добавить в корзину</button>
+    </div>
+    <div class="item_box">
+      <img src="images/7.jpg" width="300" height="180"; border= "0";>
+        <h3 class="item_title">Abibas Bounce Flyknit</h3>
+        <p>Цена: <span class="item_price">29990</span>тг.</p>
+        <button class="add_item" data-id="6">Добавить в корзину</button>
+    </div>
+    <p><button id="checkout">Оформить заказ</button> &nbsp; <button id="clear_cart">Очистить корзину</button></p>
+    <div id="cart_content"></div>
+    <button class="form_button" style="position:relative;left: 80%;"><li><a href="index.html"><big><big>Главная</big></big></a></li></button>
 	</div>
-	<div>
-		<img src="images/8.jpg" width="300"; height="180"; border="0";>
-		<p>Abibas Gazelle</p>
-		<button class="button-primary plus" data-id="322228">+</button>
-		<button class="button-primary minus" data-id="322228">-</button>
-	</div>
-	<div>
-		<img src="images/11.jpg" width="300"; height="180"; border="0";>
-		<p>Abibas Yeezy 350</p>
-		<button class="button-primary plus" data-id="123456">+</button>
-		<button class="button-primary minus" data-id="123456">-</button>
-	</div>
-	<div>
-		<img src="images/7.jpg" width="300"; height="180"; border="0";>
-		<p>Abibas Bounce Flyknit</p>
-		<button class="button-primary plus" data-id="654321">+</button>
-		<button class="button-primary minus" data-id="654321">-</button>
-	</div>
-	<div>
-<button class="form_button" style="position:relative;left: 45%;"><li><a href="index.html"><big><big>Главная</big></big></a></li></button>
-</div>
-
-</section>
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
-<script src="magazin.js"></script>
+<script src="busket.js"></script>
 </html>
