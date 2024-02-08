@@ -3,7 +3,9 @@ h2{font-family:Montserrat;color: white;}
 h1{font-family:Montserrat;color: white;}
 body{
 	background: url(images/5.jpg);
-	background-size: 100%;
+	background-size: cover;
+    	background-position: center;
+    	background-repeat: no-repeat;
 	}
 .form_input,
 .form_button{
